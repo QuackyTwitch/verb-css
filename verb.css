@@ -276,16 +276,8 @@
 
 /*Section I: Frame*/
 
-:root {
-    --accent: #ab20fb;
-}
 
 /*DO NOT EDIT BELOW UNLESS YOU KNOW WHAT YOU ARE DOING*/
-
-@font-face {
-    font-family: gamefont;
-    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2);
-}
 
 * {
     color: #fff;
@@ -413,9 +405,6 @@ a {
 
 /*Section III: Menu*/
 
-#mainLogo {
-    content: url(https://cdn.discordapp.com/attachments/509029796777558030/799299298507358219/LION-SOLO_OK.gif);
-}
 
 #gameNameHolder:hover #mainLogo {
     /*content: url(https://cdn.discordapp.com/attachments/570906904713363457/806408830098997288/timp.gif);*/
@@ -910,27 +899,7 @@ input:checked+.sliderSml {
 
 /*KPD*/
 
-#policeButton {
-    margin: 0;
-    padding: 0;
-    height: 40px !important;
-    width: 58px !important;
-    color: #fff;
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    left: 320px;
-    background-color: transparent !important;
-    box-shadow: none !important;
-    background-image: url(https://media.discordapp.net/attachments/509029796777558030/799299280963502140/logo2.png?width=678&height=479);
-    background-size: cover;
-}
 
-#policeButton img {
-    margin: 0 !important;
-    height: 36px !important;
-    opacity: 0;
-}
 
 #policePopC {
     background-color: rgba(44,44,44);
